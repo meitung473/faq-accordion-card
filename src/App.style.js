@@ -55,6 +55,9 @@ const Box = styled(motion.div)`
 `;
 
 const Title = styled.h1`
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
     text-align: center;
     ${br.md} {
         text-align: left;

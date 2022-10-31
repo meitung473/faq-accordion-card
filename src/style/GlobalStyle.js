@@ -1,12 +1,16 @@
 import { createGlobalStyle } from "styled-components";
-import { theme } from "./theme";
 
 const GlobalStyle = createGlobalStyle`
     h1{
-        ${theme.typo.H1}
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
     }
     p{
-        ${theme.typo.body}
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.005em;
     }
 `;
 

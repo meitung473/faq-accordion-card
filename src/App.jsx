@@ -38,7 +38,7 @@ export default function FaqAccordion() {
                     </Box>
                 </Wrapper>
                 <div
-                    class="attribution"
+                    className="attribution"
                     style={{
                         position: "absolute",
                         bottom: ".5rem",

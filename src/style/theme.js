@@ -17,21 +17,4 @@ export const theme = {
         Dividers: "hsla(240, 5%, 91%, 1)",
         greyScale: createGreyScale(10),
     },
-    typo: {
-        H1: `
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 40px;
-        `,
-        title: `
-            font-weight: 700;
-            font-size: 16px;
-        `,
-        body: `
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 15px;
-            letter-spacing: 0.005em;
-        `,
-    },
 };

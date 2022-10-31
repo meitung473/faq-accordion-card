@@ -16,6 +16,10 @@ const Header = styled(motion.header)`
 `;
 
 const Content = styled(motion.p)`
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.005em;
     color: ${({ theme }) => theme.colors.secondary.Default};
     transform-origin: top left;
 `;
