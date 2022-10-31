@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://meitung473.github.io/faq-accordion-card/",
+  "author": "Rosa Hong",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "sh ./deploy.sh"
   },
   "dependencies": {
     "framer-motion": "^7.6.2",
